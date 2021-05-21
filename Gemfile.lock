@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    lewys_palindrome (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.2.4)
+    minitest (5.14.4)
+    minitest-reporters (1.2.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (13.0.3)
+    ruby-progressbar (1.11.0)
+
+PLATFORMS
+  arm64-darwin-20
+
+DEPENDENCIES
+  bundler (~> 2.2.16)
+  lewys_palindrome!
+  minitest (~> 5.0)
+  minitest-reporters (= 1.2.0)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.2.16

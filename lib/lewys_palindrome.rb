@@ -2,7 +2,16 @@
 
 require_relative "lewys_palindrome/version"
 
-module LewysPalindrome
-  class Error < StandardError; end
-  # Your code goes here...
+
+class String 
+  def palindrome?
+    processed_content == processed_content.reverse
+  end
+
+  private
+
+  def processed_content
+    self.scan(/[a-zA-Z]/).join.downcase
+  end
 end
+
